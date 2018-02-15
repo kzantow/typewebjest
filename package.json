@@ -17,5 +17,8 @@
     "testing"
   ],
   "author": "Keith Zantow <keith@zantow.us> (http://zantow.us)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ts-jest": "^22.0.4"
+  }
 }
