@@ -13,7 +13,7 @@ if (typeof localStorage === 'undefined') {
         },
         removeItem(name) {
             delete values[name];
-        }
+        },
     };
 }
 require('whatwg-fetch');
