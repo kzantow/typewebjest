@@ -6,7 +6,7 @@ Usage, in your jest config:
 
 ```
 ...
-    setupFiles: ['<rootDir>/.jest/setupPolyfills.js'],
+    setupFiles: ['typewebjest/polyfills'],
 ...
     transform: {
         '^.+\\.(js|jsx|ts|tsx)$': 'typewebjest/transforms/ts',
@@ -15,4 +15,3 @@ Usage, in your jest config:
     },
 ...
 ```
-
