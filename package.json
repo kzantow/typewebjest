@@ -13,7 +13,12 @@
         "type": "git",
         "url": "github.com:kzantow/typewebjest.git"
     },
-    "keywords": ["jest", "webpack", "typescript", "testing"],
+    "keywords": [
+        "jest",
+        "webpack",
+        "typescript",
+        "testing"
+    ],
     "author": "Keith Zantow <keith@zantow.us> (http://zantow.us)",
     "license": "ISC",
     "dependencies": {
