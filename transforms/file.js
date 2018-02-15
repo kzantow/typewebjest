@@ -3,4 +3,3 @@ module.exports = {
         return `module.exports = ${JSON.stringify(require('path').basename(filename))};`;
     }
 };
-

@@ -1,24 +1,28 @@
 {
-  "name": "typewebjest",
-  "version": "0.5.1",
-  "description": "Typescript, Webpack, and Jest utilities",
-  "main": "index.js",
-  "scripts": {
-    "test": "exit 0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "github.com:kzantow/typewebjest.git"
-  },
-  "keywords": [
-    "jest",
-    "webpack",
-    "typescript",
-    "testing"
-  ],
-  "author": "Keith Zantow <keith@zantow.us> (http://zantow.us)",
-  "license": "ISC",
-  "dependencies": {
-    "ts-jest": "^22.0.4"
-  }
+    "name": "typewebjest",
+    "version": "0.5.1",
+    "description": "Typescript, Webpack, and Jest utilities",
+    "main": "index.js",
+    "scripts": {
+        "precommit": "pretty-quick --staged",
+        "prettier": "prettier --write '**/*.js'",
+        "release": "np",
+        "test": "exit 0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "github.com:kzantow/typewebjest.git"
+    },
+    "keywords": ["jest", "webpack", "typescript", "testing"],
+    "author": "Keith Zantow <keith@zantow.us> (http://zantow.us)",
+    "license": "ISC",
+    "dependencies": {
+        "ts-jest": "^22.0.4"
+    },
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "np": "^2.20.0",
+        "prettier": "^1.10.2",
+        "pretty-quick": "^1.4.1"
+    }
 }
