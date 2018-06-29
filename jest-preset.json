@@ -2,7 +2,7 @@
     "collectCoverageFrom": ["<rootDir>/*.{ts,tsx}", "!<rootDir>/*.{d,stories,test}.{ts,tsx}"],
     "collectCoverage": true,
     "coverageReporters": ["lcov", "text", "html"],
-    "setupFiles": ["typewebjest/polyfills", "typewebjest/enzyme-react-16-adapter"],
+    "setupFiles": ["typewebjest/polyfills", "typewebjest/enzyme-adapter-react-16"],
     "testMatch": ["<rootDir>/**/*.test.ts?(x)"],
     "testURL": "http://localhost",
     "transform": {
