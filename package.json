@@ -6,7 +6,7 @@
     "scripts": {
         "precommit": "pretty-quick --staged",
         "prettier": "prettier --write '**/*.js'",
-        "release": "np",
+        "publish": "np",
         "test": "exit 0"
     },
     "repository": {
