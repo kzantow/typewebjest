@@ -1,6 +1,6 @@
 {
     "name": "typewebjest",
-    "version": "0.5.3",
+    "version": "0.5.4",
     "description": "Typescript, Webpack, and Jest utilities",
     "main": "index.js",
     "scripts": {
